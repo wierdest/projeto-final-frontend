@@ -363,11 +363,13 @@ body {
   }
 
   .button-clientes {
-    margin-left: 350px;
+    margin: 0px;
   }
 
   
 }
+
+
 
 
 .news-input{
@@ -390,4 +392,10 @@ body {
   vertical-align: middle;
   max-width: 75%;
   margin-top: 2%;
+}
+
+.text-center {
+  margin: 10px;
+  font-size: large;
+  width: 100%;
 }
