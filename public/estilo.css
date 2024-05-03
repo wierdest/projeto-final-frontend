@@ -369,7 +369,8 @@ body {
   
 }
 
-
+.news-input {
+  width: 150px;}
 
 
 .news-input{
@@ -395,7 +396,7 @@ body {
 }
 
 .text-center {
-  margin: 10px 0px;
+  margin: 10px 0px; /* ajustando */
   font-size: large;
   width: 100%;
 }
