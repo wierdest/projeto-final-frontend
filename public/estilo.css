@@ -1,0 +1,396 @@
+.destaque-logo {
+  color: #6cf6ff;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+}
+
+.navbar-brand:hover {
+  animation: roda 0.5s ease-in-out infinite;
+}
+@keyframes roda {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.container-icones {
+  word-spacing: 10px;
+}
+
+.icone {
+  font-size: x-large;
+  color: white;
+  display: inline-block;
+}
+
+.icone-footer {
+  font-size: xx-large;
+  color: #3644f8;
+  display: inline-block;
+}
+
+.icone-footer:hover {
+  animation: tremeCimaBaixo 0.5s ease-in-out infinite;
+}
+
+.icone:hover {
+  animation: tremeCimaBaixo 0.5s ease-in-out infinite;
+}
+
+@keyframes tremeCimaBaixo {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  
+}
+.body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.img-pequena {
+  width: 100px; /* Largura desejada */
+  height: 50px; /* Mantém a proporção original */
+  justify-items: center;
+}
+
+.text-center {
+  font-size: large;
+  height: 50px;
+  align-content: flex-end;
+  border: 0cap;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3f7bb7;
+  overflow-x: hidden;
+}
+.card {
+  background-color: #485aa6;
+}
+
+.btn-primary {
+  background-color: black;
+}
+.card-title {
+  color: white;
+}
+
+.all-funkos {
+  background-color: #dfc6f0;
+}
+
+.funkos-h1 {
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+.funkos-h3 {
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.tittle-cards {
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #dfc6f0;
+}
+
+.title-cards h1,
+
+.title-cards h3 {
+  margin-bottom: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 15px;
+  color: white;
+}
+.card-img-top {
+  height: 95%;
+  border-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  object-fit: contain;
+  padding: 25px;
+}
+
+.card-img-container {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body button {
+  border-radius: 30px;
+}
+
+.col-cartao {
+  margin-bottom: 20px;
+}
+
+.diagonal-background-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.diagonal-background-section::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%; /* Ajuste este valor para cobrir toda a largura */
+  height: 200%; /* Ajuste este valor para cobrir toda a altura */
+  background: linear-gradient(
+    to bottom right,
+    #3a7cb0 0%,
+    #6353b8 50%,
+    #0000ff 100%
+  );
+  z-index: -1;
+  transform-origin: top left;
+  transform: rotate(-10deg) scaleY(1.5);
+}
+
+.botao-redondo {
+  border-radius: 30px;
+}
+
+.texto-banner {
+  color: white;
+  font-weight: 600;
+  max-width: 80%;
+}
+
+.texto-banner-h5 {
+  color: white;
+  max-width: 80%;
+}
+
+.imagem-carousel {
+  max-height: 80px !important;
+  max-width: 200px !important;
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.carousel-item {
+  padding-left: 10%;
+}
+
+.sem-marcador {
+  list-style-type: none;
+}
+
+.sem-linha {
+  text-decoration: none;
+  color: white;
+}
+
+.table>tbody {
+  vertical-align: middle;
+}
+
+.mb-3 {
+  margin-bottom: 0rem !important;
+}
+
+#precoTotal{
+  margin: 0px;
+}
+
+.modal {
+  --bs-modal-width: 600px;
+}
+
+/* .modal-body {
+  overflow: auto;
+  max-height: 300px;    carrinho com compras
+  padding: 0px 3rem;
+} */
+
+.modal-body {
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+  max-height: 300px;
+  padding: 0px 50px;
+}
+
+.texto-sobre-elsa {
+  position:static;
+  bottom: 50px; 
+  right: 50px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.texto-sobre-ray {
+  float: right;
+  position:static;
+  bottom: 50px; 
+  right: 50px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#sobre-nos{
+  color: white;
+  text-align: center;
+
+}
+
+.icone-pedido-sucesso{
+  font-size:100px;
+  color: #36f86d;
+  display: inline-block;
+  margin-top: 2%;
+}
+
+.clientes-h1 {
+  color: white;
+  margin-top: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.btn-cliente {
+  margin: 20px;
+}
+
+.cliente-p {
+  color: white;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-right: 20%;
+}
+
+.button-clientes {
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+}
+
+
+@media (max-width: 425px) {
+  .clientes-h1 {
+    font-size: 1em; /* Ajuste o tamanho da fonte conforme necessário */
+    text-align: center; /* Centraliza o texto para telas menores */
+  }
+
+  .cliente-p {
+    font-size: 1em; /* Ajuste o tamanho da fonte conforme necessário */
+    text-align: center; /* Centraliza o texto para telas menores */
+    margin-right: 0; /* Remove a margem direita para telas menores */
+  }
+
+  .img-clientes {
+    width: 100%;
+    height: auto;
+  }
+
+  .button-clientes {
+    margin-left: 350px;
+  }
+
+  .card-body {
+    margin-top: -80px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .card {
+    height: 80%;
+  }
+  .row {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.news-input{
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.3); /* Cor branca com 50% de transparência */
+      background-size: cover;
+      padding: 5px 95px; /* Ajuste o padding conforme necessário */
+      cursor: pointer;
+      border: 3px solid white;
+}
+
+@media (max-width: 1196px) {
+  .imagens-news{
+    width: 500px;
+    height: auto;
+  }
+}
