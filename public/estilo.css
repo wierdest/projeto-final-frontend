@@ -395,7 +395,7 @@ body {
 }
 
 .text-center {
-  margin: 10px;
+  margin: 10px 0px;
   font-size: large;
   width: 100%;
 }
