@@ -369,6 +369,7 @@ body {
   
 }
 
+
 .news-input{
       border-radius: 10px;
       background-color: rgba(255, 255, 255, 0.3); /* Cor branca com 50% de transparência */
@@ -383,4 +384,10 @@ body {
     width: 500px;
     height: auto;
   }
+}
+
+.harry {
+  vertical-align: middle;
+  max-width: 75%;
+  margin-top: 2%;
 }
