@@ -93,7 +93,12 @@
   height: 100px;
   border: 0cap;
 }
-
+.text-center-footer{
+  font-size: large;
+  height: 50px;
+  text-align: center;
+  border: 0cap;
+}
 
 .footer {
   position: fixed;
