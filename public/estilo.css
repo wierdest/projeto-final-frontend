@@ -136,6 +136,7 @@ body {
   line-height: 1.2;
   text-align: center;
 }
+
 .funkos-h3 {
   color: white;
   margin-top: 50px;
@@ -364,19 +365,7 @@ body {
     margin-left: 350px;
   }
 
-  .card-body {
-    margin-top: -80px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0;
-  }
-  .card {
-    height: 80%;
-  }
-  .row {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+  
 }
 
 .news-input{
